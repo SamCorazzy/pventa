@@ -1,0 +1,62 @@
+/* Estilos usados en los formularios, menus, tablas, botones */
+
+/* formulario */
+html {
+  min-height: 100%;
+  position: relative;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+}
+
+table{
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+.tabla{
+  padding-top: 25px;
+  overflow: hidden;
+  overflow-x: auto;
+  overflow-y: auto;
+  padding-bottom: 30px;
+}
+
+.content-table {
+  margin: 0px 15px;
+  font-size: 1em;
+  font-family: sans-serif;
+  min-width: 1000px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.content-table thead tr {
+  background-color: #bcbcbc;
+  color: black;
+  text-align: middle;
+}
+
+.content-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.content-table td {
+  text-align: center;
+  background: #ffffff;
+}
+
+/* celdas */
+td, th{
+  width: 10px;
+  word-wrap: break-word;
+}
+/* acaba celda */
+
+/*acaba tabla*/
+

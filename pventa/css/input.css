@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Pone el fondo gris */
+@layer base {
+  body {
+    @apply bg-gray-200;
+  }
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
